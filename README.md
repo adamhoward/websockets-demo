@@ -6,7 +6,7 @@ A WebSockets **and EventSource** demo in Clojure
 Clone the repo and run `lein run` (assuming you have [Leiningen 2](http://github.com/technomancy/leiningen) installed.)
 
 For Websockets: http://localhost:9000/websockets-client.html  
-For EventSource: http://localhost:9001/eventsource-client.html
+For EventSource: http://localhost:9000/eventsource-client.html
 
 You should see a graph that gets updated once per second.
 
