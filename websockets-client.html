@@ -28,7 +28,7 @@
 			smoothieChart.streamTo(document.getElementById("mycanvas"), 1000);
 
 			if (window["WebSocket"]) {
-				var conn = new WebSocket("ws://127.0.0.1:9000/ws");
+				var conn = new WebSocket("ws://"+window.location.host+"/ws");
 
 				conn.onmessage = function(evt) {
 					log.innerHTML = evt.data;
